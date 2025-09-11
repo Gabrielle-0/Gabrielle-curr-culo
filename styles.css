@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+.curriculo{
+    display: flex;
+    min-height: 100vh;
+}
+
+/*Coluna esquerda*/
+.col-esquerda {
+    width: 40%;
+    background: #edf0c0;
+    padding: 40px ;
+    box-sizing: border-box;
+}
+
+.col-esquerda h1 {
+    font-size: 38px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.col-esquerda h2 {
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+
+.col-esquerda h3 {
+    margin-top: 25px;
+}
+
+.col-esquerda hr {
+    border: none;
+    border-top: 1px solid;
+    margin:8px 0 15px;
+    width: 100%;
+}
+
+.col-esquerda p, .col-esquerda ul {
+    font-size: 14px;
+    padding: 1.6;
+}
+
+.col-esquerda ul {
+    list-style: none;
+    padding: 0;
+}
+
+.col-esquerda ul li::before {
+    content:"."
+}
+
+.info {
+    font-size: 13px;
+    margin: 4px 0;
+}
+
+/*Coluna direita (Branca)*/
+.col-direita{
+    width: 60%;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.col-direita h3{
+    margin-top: 20px;
+}
+
+.col-direita hr{
+    border:none;
+    border-top: 1px solid;
+    margin: 8px 0 15px;
+    width: 100%;
+}
+
+.col-direita p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 15px;
+}
+
+/*Foto*/
+.foto {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid;
+}
